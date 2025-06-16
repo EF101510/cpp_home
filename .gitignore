@@ -1,23 +1,24 @@
-# �o�O�@�� .gitignore ���A�Ω�i�D���b�o�Ӹ�Ƨ���git���F�A�����ɮ׬O���ݭn�����Git��������t�Ϊ��C
+# 這是一個 .gitignore 文件，用於告訴住在這個資料夾的git精靈，哪些檔案是不需要提交到Git版本控制系統的。
 
-# �q�`�ڭ̷|�����sĶ�᪺�G�i����B�{�ɤ��B��x���C
-# �٦��@�� �{���s�边(IDE) �Ψt�γ]�w���t�m���C
-# �D�n��]�O�]���C�ӤH�ϥΪ����Ҥ��P�A�ҥH�o���ɮץi�H���ΤW�Ǩ쪩������t�ΡC
+# 通常我們會忽略編譯後的二進制文件、臨時文件、日誌文件。
+# 還有一些 程式編輯器(IDE) 或系統設定的配置文件。
+# 主要原因是因為每個人使用的環境不同，所以這些檔案可以不用上傳到版本控制系統。
 
 
-# IDE�]�w
+# IDE設定
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
 
-# �t�Υͦ������
+# 系統生成的文件
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# �Ȯɪ����P��x���
+# 暫時的文件與日誌文件
 *.tmp
 *.swp
 .cache/
 .DS_Store
+
