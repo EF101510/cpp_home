@@ -5,10 +5,10 @@ using namespace std;
 int main(int argc, char** argv)
 {
     double radius;
-    cout << "½Ð¿é¤J¶ê¥b®|: " << endl;
+    cout << "è«‹è¼¸å…¥åœ“åŠå¾‘: " << endl;
     cin >> radius;
     double circumference =  M_PI * radius * 2;
-    cout << "¶ê©Pªø¬O: " << circumference << endl;
+    cout << "åœ“å‘¨é•·æ˜¯: " << circumference << endl;
     double area = M_PI * radius * radius;
-    cout << "¶ê­±¿n¬O: " << area << endl;
+    cout << "åœ“é¢ç©æ˜¯: " << area << endl;
 }

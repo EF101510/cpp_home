@@ -4,16 +4,16 @@ using namespace std;
 
 void printMenu() {
     cout << "\n===========================" << endl;
-    cout << "       Â²©ö­pºâ¾÷¿ï³æ      " << endl;
+    cout << "       ç°¡æ˜“è¨ˆç®—æ©Ÿé¸å–®      " << endl;
     cout << "===========================" << endl;
-    cout << "  1. ¥[ªk       (+)" << endl;
-    cout << "  2. ´îªk       (-)" << endl;
-    cout << "  3. ­¼ªk       (*)" << endl;
-    cout << "  4. °£ªk       (/)" << endl;
-    cout << "  5. ¨ú¾l¼Æ     (%)" << endl;
-    cout << "  6. ¦¸¤è       (^)" << endl;
+    cout << "  1. åŠ æ³•       (+)" << endl;
+    cout << "  2. æ¸›æ³•       (-)" << endl;
+    cout << "  3. ä¹˜æ³•       (*)" << endl;
+    cout << "  4. é™¤æ³•       (/)" << endl;
+    cout << "  5. å–é¤˜æ•¸     (%)" << endl;
+    cout << "  6. æ¬¡æ–¹       (^)" << endl;
     cout << "===========================" << endl;
-    cout << "½Ð¿é¤J¿ï¶µ (1 - 6): ";
+    cout << "è«‹è¼¸å…¥é¸é … (1 - 6): ";
 }
 
 int main() {
@@ -28,34 +28,34 @@ int main() {
         cin >> choice;
 
         if (choice < 1 || choice > 6) {
-            cout << "\n[¿ù»~] µL®Äªº¿ï¶µ¡A½Ð¿é¤J 1 ¨ì 6¡C" << endl;
+            cout << "\n[éŒ¯èª¤] ç„¡æ•ˆçš„é¸é …ï¼Œè«‹è¼¸å…¥ 1 åˆ° 6ã€‚" << endl;
             continue;
         }
 
 
 
-        // ²Ä¤@¦¸¤@©w­n¿é¤J¨â­Ó¼Æ¦r
+        // ç¬¬ä¸€æ¬¡ä¸€å®šè¦è¼¸å…¥å…©å€‹æ•¸å­—
         if (firstTime) {
             cout << "\n---------------------------" << endl;
-            cout << "½Ð¿é¤J¨â­Ó¼Æ¦r: ";
+            cout << "è«‹è¼¸å…¥å…©å€‹æ•¸å­—: ";
             cin >> num1 >> num2;
             cout << "---------------------------" << endl;
             cout  << "num1: " << num1 << ", num2: " << num2 << endl;
             firstTime = false;
         } else {
-            // «D²Ä¤@¦¸¡A¨Ï¥Î¤W¦¸µ²ªG·í§@ num1¡A¸ß°Ý¬O§_­«³]
-            cout << "\n¤W¦¸µ²ªG¬°: " << result << endl;
-            cout << "¬O§_­n­«·s¿é¤J¨â­Ó¼Æ¦r¡H(Y = ¬O¡AN = §_): ";
+            // éžç¬¬ä¸€æ¬¡ï¼Œä½¿ç”¨ä¸Šæ¬¡çµæžœç•¶ä½œ num1ï¼Œè©¢å•æ˜¯å¦é‡è¨­
+            cout << "\nä¸Šæ¬¡çµæžœç‚º: " << result << endl;
+            cout << "æ˜¯å¦è¦é‡æ–°è¼¸å…¥å…©å€‹æ•¸å­—ï¼Ÿ(Y = æ˜¯ï¼ŒN = å¦): ";
             cin >> resetInput;
 
             if (resetInput == 'Y' || resetInput == 'y' ) {
                 cout << "\n---------------------------" << endl;
-                cout << "½Ð¿é¤J¨â­Ó¼Æ¦r: ";
+                cout << "è«‹è¼¸å…¥å…©å€‹æ•¸å­—: ";
                 cin >> num1 >> num2;
                 cout << "---------------------------" << endl;
             } else {
                 num1 = result;
-                cout << "½Ð¿é¤J²Ä¤G­Ó¼Æ¦r: ";
+                cout << "è«‹è¼¸å…¥ç¬¬äºŒå€‹æ•¸å­—: ";
                 cin >> num2;
                 cout << "---------------------------" << endl;
             }
@@ -64,44 +64,44 @@ int main() {
         switch (choice) {
             case 1:
                 result = num1 + num2;
-                cout << "¡i¥[ªk¡jµ²ªG¬O: " << result << endl;
+                cout << "ã€åŠ æ³•ã€‘çµæžœæ˜¯: " << result << endl;
                 break;
             case 2:
                 result = num1 - num2;
-                cout << "¡i´îªk¡jµ²ªG¬O: " << result << endl;
+                cout << "ã€æ¸›æ³•ã€‘çµæžœæ˜¯: " << result << endl;
                 break;
             case 3:
                 result = num1 * num2;
-                cout << "¡i­¼ªk¡jµ²ªG¬O: " << result << endl;
+                cout << "ã€ä¹˜æ³•ã€‘çµæžœæ˜¯: " << result << endl;
                 break;
             case 4:
                 if (num2 != 0) {
                     result = num1 / num2;
-                    cout << "¡i°£ªk¡jµ²ªG¬O: " << result << endl;
+                    cout << "ã€é™¤æ³•ã€‘çµæžœæ˜¯: " << result << endl;
                 } else {
-                    cout << "¿ù»~: °£¼Æ¤£¯à¬° 0¡C" << endl;
+                    cout << "éŒ¯èª¤: é™¤æ•¸ä¸èƒ½ç‚º 0ã€‚" << endl;
                 }
                 break;
             case 5:
                 if (static_cast<int>(num2) != 0) {
                     result = static_cast<int>(num1) % static_cast<int>(num2);
-                    cout << "¡i¾l¼Æ¡jµ²ªG¬O: " << result << endl;
+                    cout << "ã€é¤˜æ•¸ã€‘çµæžœæ˜¯: " << result << endl;
                 } else {
-                    cout << "¿ù»~: °£¼Æ¤£¯à¬° 0¡C" << endl;
+                    cout << "éŒ¯èª¤: é™¤æ•¸ä¸èƒ½ç‚º 0ã€‚" << endl;
                 }
                 break;
             case 6:
                 result = pow(num1, num2);
-                cout << "¡i¦¸¤è¡jµ²ªG¬O: " << result << endl;
+                cout << "ã€æ¬¡æ–¹ã€‘çµæžœæ˜¯: " << result << endl;
                 break;
         }
 
         cout << "---------------------------" << endl;
-        cout << "¬O§_­nÄ~Äò­pºâ¡H(Y/N): ";
+        cout << "æ˜¯å¦è¦ç¹¼çºŒè¨ˆç®—ï¼Ÿ(Y/N): ";
         cin >> again;
 
     } while (again == 'Y' || again == 'y');
 
-    cout << "\n·PÁÂ¨Ï¥Î¡A¦A¨£¡I" << endl;
+    cout << "\næ„Ÿè¬ä½¿ç”¨ï¼Œå†è¦‹ï¼" << endl;
     return 0;
 }

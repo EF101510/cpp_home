@@ -4,9 +4,9 @@ using namespace std;
 int main(int argc, char** argv)
 {
     char key;
-    cout << "請按任意鍵";
+    cout << "";
     cin.get(key);
-    cout << "你按下的鍵是：" << key << endl;
+    cout << "" << key << endl;
     return 0;
 
 }

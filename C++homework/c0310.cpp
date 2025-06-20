@@ -5,11 +5,11 @@ int main (int argc, char** argv)
 {
     int num;
     char key;
-    cout << "½Ğ¿é¤J¤@­Ó¾ã¼Æ";
+    cout << "è«‹è¼¸å…¥ä¸€å€‹æ•´æ•¸";
     cin >> num;
-    cout << "½Ğ«ö¤UEnterÁäµ²§ô" << endl;
+    cout << "è«‹æŒ‰ä¸‹EnteréµçµæŸ" << endl;
     cin.get(key);
-    cout << "ÁÂÁÂ§Aªº¿é¤J" << endl;
-    cout << "§A¿é¤Jªº¾ã¼Æ¬O: " << num << endl;
+    cout << "è¬è¬ä½ çš„è¼¸å…¥" << endl;
+    cout << "ä½ è¼¸å…¥çš„æ•´æ•¸æ˜¯: " << num << endl;
     return 0;
 }

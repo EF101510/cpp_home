@@ -6,11 +6,11 @@ int main(int argc, char** argv)
     int a;
     int b;
     char key;
-    cout << "¥[ªk¹Bºâ «öEnterÁäÄ~Äò";
+    cout << "åŠ æ³•é‹ç®— æŒ‰Enteréµç¹¼çºŒ";
     cin.get(key);
-    cout << "½Ğ¿é¤JA­È" << endl;
+    cout << "è«‹è¼¸å…¥Aå€¼" << endl;
     cin >> a;
-    cout << "½Ğ¿é¤JB­È" << endl;
+    cout << "è«‹è¼¸å…¥Bå€¼" << endl;
     cin >> b;
     cout << a+b;
 }
