@@ -6,7 +6,7 @@ using namespace std;
 int main(int argc, char** argv)
 {
     int guess;
-    int guess_time;
+    int guess_time = 1;
     srand(time(NULL));
     int num = 1 + rand() % (10);
     cout << "現在是猜數字遊戲，請輸入一個數字" << endl;
