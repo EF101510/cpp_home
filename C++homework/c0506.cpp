@@ -13,3 +13,10 @@ int main(int argc, char** argv)
     cout << "結束" ;
     return 0;
 }
+
+
+
+
+
+
+
