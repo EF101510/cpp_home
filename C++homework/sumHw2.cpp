@@ -2,9 +2,12 @@
 using namespace std;
 
 int main() {
-    int number, sum = 0;
+    int num, number, sum = 0;
 
-    for (int i = 1; i <= 4; ++i) {
+    cout << "請問你要輸入幾個數字？" << endl;
+    cin >> num;
+
+    for (int i = 1; i <= num; ++i) {
         cout << "請輸入第" << i << "個數字：" << endl;
         cin >> number;
         sum += number;
@@ -14,9 +17,3 @@ int main() {
 
     return 0;
 }
-
-
-
-
-
-

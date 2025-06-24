@@ -25,4 +25,5 @@ desktop.ini
 .cache/
 .DS_Store
 .dsYM/
+build/
 
