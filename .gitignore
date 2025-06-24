@@ -5,6 +5,8 @@
 # 主要原因是因為每個人使用的環境不同，所以這些檔案可以不用上傳到版本控制系統。
 
 
+
+
 # IDE設定
 .vscode/
 .idea/
@@ -22,4 +24,5 @@ desktop.ini
 *.swp
 .cache/
 .DS_Store
+.dsYM/
 
