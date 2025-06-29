@@ -2,7 +2,9 @@
 using namespace std;
 
 int main() {
-    int num, number, sum = 0;
+    int num = 0;
+    int number = 0; 
+    int sum = 0;
 
     cout << "請問你要輸入幾個數字？" << endl;
     cin >> num;

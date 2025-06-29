@@ -2,7 +2,8 @@
 using namespace std;
 
 int main() {
-    int number, sum = 0;
+    int number = 0;
+    int sum = 0;
 
     for (int i = 1; i <= 4; ++i) {
         cout << "請輸入第" << i << "個數字：" << endl;
@@ -14,8 +15,6 @@ int main() {
 
     return 0;
 }
-
-
 
 
 
