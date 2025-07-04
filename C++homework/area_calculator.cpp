@@ -57,11 +57,11 @@ void triangle_Area()
 
 void circle_Area() 
 {
-    int radius;
+    int radius; 
     cout << "請輸入圓的半徑: ";
     cin >> radius;
-    double area = 3.14159 * radius * radius; 
-    cout << "圓的面積是: " << area << endl;
+    double area = radius * radius; 
+    cout << "圓的面積是: " << area << "π" << endl;
 }
 
 void exit_area()
