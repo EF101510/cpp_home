@@ -3,7 +3,7 @@
 #include <ctime>
 using namespace std;
 
-int main(int argc, char** argv) 
+int main(int argc, char **argv)
 {
     unsigned int seed = time(NULL);
     srand(seed);

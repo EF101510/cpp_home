@@ -12,6 +12,7 @@ int main(int argc, char **argv)
         sorry();
     }
     float arr[size];
+
     for (int i = 0; i < size; i++)
     {
         cout << "輸入第" << i + 1 << "個數字";

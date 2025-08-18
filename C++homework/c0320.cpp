@@ -1,8 +1,8 @@
-#include<cstdlib>
-#include<iostream>
-#include<ctime>
+#include <cstdlib>
+#include <iostream>
+#include <ctime>
 using namespace std;
-int main (int argc, char** argv)
+int main(int argc, char **argv)
 {
     srand(time(NULL));
     cout << rand() << endl;

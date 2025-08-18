@@ -1,7 +1,7 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char **argv)
 {
     int a;
     int b;
@@ -12,5 +12,5 @@ int main(int argc, char** argv)
     cin >> a;
     cout << "請輸入B值" << endl;
     cin >> b;
-    cout << a+b;
+    cout << a + b;
 }

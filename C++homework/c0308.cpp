@@ -1,8 +1,8 @@
-#include<iostream>
-#include<iomanip>
+#include <iostream>
+#include <iomanip>
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char **argv)
 {
     char string[5];
     cout << "Enter a character: ";

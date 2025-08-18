@@ -1,7 +1,7 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-const double PI=3.1415926535798;
-int main (int argc, char** argv)
+const double PI = 3.1415926535798;
+int main(int argc, char **argv)
 {
     cout.precision(2);
     cout.setf(ios::fixed);
@@ -13,8 +13,6 @@ int main (int argc, char** argv)
     cout << PI * 10000 << endl;
     return 0;
 }
-
-
 
 //      -3.14
 //      314.16

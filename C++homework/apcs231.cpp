@@ -1,33 +1,32 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-void check_triangle_type(int,int,int);
+void check_triangle_type(int, int, int);
 void not_a_triangle();
 void obtuse_triangle();
 void right();
 void acute();
 
-
-int main(int argc,char** argv)
+int main(int argc, char **argv)
 {
-    int a , b , c;
-    int x ; //暫存
+    int a, b, c;
+    int x; // 暫存
     cout << "請輸入三個數字(單位：cm)：" << endl;
-    cin >> a >> b >> c ;
+    cin >> a >> b >> c;
     if (a > b)
     {
-       x = a;
-       a = b;
-       b = x; 
+        x = a;
+        a = b;
+        b = x;
     }
 
     if (a > c)
     {
         x = a;
         a = c;
-        c = x; 
+        c = x;
     }
-    
+
     if (b > c)
     {
         x = b;
@@ -35,7 +34,7 @@ int main(int argc,char** argv)
         c = x;
     }
 
-    cout << a << " " << b << " " << c <<endl;
+    cout << a << " " << b << " " << c << endl;
     if (a + b > c)
     {
         check_triangle_type(a, b, c);
@@ -44,7 +43,7 @@ int main(int argc,char** argv)
         not_a_triangle();
 }
 
-void check_triangle_type(int a,int b,int c)
+void check_triangle_type(int a, int b, int c)
 {
     if (a * a + b * b < c * c)
     {

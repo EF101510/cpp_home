@@ -1,6 +1,6 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(int argc, char** argv)
+int main(int argc, char **argv)
 {
     short num1 = 32767;
     cout << num1 << "+3=";
