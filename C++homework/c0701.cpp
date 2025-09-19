@@ -32,6 +32,6 @@ int main(int argc, char **argv)
             max = arr[i];
         }
     }
-    cout << "你輸入數字為：" << max << endl;
+    cout << "你輸入的最大數字為：" << max << endl;
     return 0;
 }
