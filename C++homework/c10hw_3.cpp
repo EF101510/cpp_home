@@ -6,6 +6,40 @@ struct Cube
     double length; // 長
     double width;  // 寬
     double height; // 高
+
+    Cube(double l, double w, double h)
+    {
+        length = l;
+        width = w;
+        height = h;
+    }
+
+    ~Cube()
+    {
+    }
+
+    const double volume()
+    {
+        return length * width * height;
+    }
+
+    double surface_area()
+    {
+        return 2 * (length * width + length * height + width * height);
+    }
+
+    int compare(Cube &b)
+    {
+        double hectorliu = volume();
+        double hector = b.volume();
+
+        if (hectorliu > hector)
+            return 1;
+        else if (hectorliu < hector)
+            return -1;
+        else
+            return 0;
+    }
 };
 
 double volume(const Cube &hi)
