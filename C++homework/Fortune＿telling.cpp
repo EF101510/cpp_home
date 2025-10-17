@@ -1,24 +1,25 @@
 #include <iostream>
 
 using namespace std;
+string input_name();
+int input_number(int min, int max);
+
 int main(int argc, char **argv)
 {
     cout << "今年幾歲？" << endl;
+
     int age;
+    int num;
     cin >> age;
     string name;
     if (age >= 0 && age <= 20)
     {
-        cout << "請輸入你的姓氏：" << endl;
-        cin >> name;
-        cout << "請輸入1or0：" << endl;
-        int num;
-        cin >> num;
+        name = input_name();
+        num = input_number(0, 1);
     }
     if (age > 20 && age <= 30)
     {
-        cout << "請輸入你的姓氏：" << endl;
-        cin >> name;
+        name = input_name();
         cout << "請輸入1or0：" << endl;
         int num;
         cin >> num;
@@ -37,7 +38,7 @@ int main(int argc, char **argv)
         int num;
         cin >> num;
         cout << "請輸入1or2or3：" << endl;
-        int num;
+        // int num;
         cin >> num;
     }
     if (age > 50 && age <= 60)
@@ -64,7 +65,7 @@ int main(int argc, char **argv)
         int num;
         cin >> num;
         cout << "請輸入1or2or3or4or5：" << endl;
-        int num;
+        // int num;
         cin >> num;
     }
     if (age > 90 && age <= 100)
@@ -99,4 +100,20 @@ int main(int argc, char **argv)
         cout << "請輸入一個國家：" << endl;
         cin >> name;
     }
+}
+
+string input_name()
+{
+    string name;
+    cout << "請輸入你的姓氏：" << endl;
+    cin >> name;
+    return name;
+}
+
+int input_number(int min, int max)
+{
+    int num;
+    cout << "請輸入" << min << "~" << max << "的整數：" << endl;
+    cin >> num;
+    return num;
 }
