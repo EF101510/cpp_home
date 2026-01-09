@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/hectorliu/cpp_home/C++homework/apcs_base_2'
+relocations:     []
+...
