@@ -1,0 +1,5 @@
+# hectorliu_vpn
+Host hectorliu_vpn
+    User hectorliukiki
+    Hostname 34.97.47.129
+    IdentityFile ~/.ssh/id_ed25519
