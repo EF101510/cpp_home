@@ -1,25 +1,36 @@
+<div align="center">
 
+# 🚀 歡迎來到 EF101510 的 C++ 學習空間
 
-# 嗨，我是EF101510  
-### (我是台灣國中小學生)
-## 這是我正在學習的程式碼
-如果您有任何建議可以告訴我   
-請傳到我的Email:`hectorliukiki@gmail.com`
-### [C++homework ](https://reurl.cc/lz1A4v)  
-以上的`C++homework`是參考C++全方位學習第四版這本書   
-有興趣的話，要記得點小星星和關注 
+### 🇹🇼 我是來自台灣的國中小學生，熱愛程式設計！
 
+[![GitHub stars](https://img.shields.io/github/stars/EF101510/cpp_home?style=for-the-badge)](https://github.com/EF101510/cpp_home/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/EF101510/cpp_home?style=for-the-badge)](https://github.com/EF101510/cpp_home/network/members)
+[![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge&logo=c%2B%2B)](https://isocpp.org/)
 
+---
 
-# Hi, I'm EF101510
-### (I'm an elementary and junior high school student)
-## This is the code I'm currently learning
-If you have any suggestions, feel free to let me know!  
-Please send them to my Email: `hectorliukiki@gmail.com`
-### [C++ homework](https://reurl.cc/lz1A4v)  
-The above `C++ homework` is based on the book *"C++ Primer Plus, 4th Edition (Chinese Version)"*.  
+### 📚 學習筆記
+這裡記錄了我學習 C++ 的點點滴滴，主要參考：
+**《C++ 全方位學習 第四版》**
 
-If you're interested, don't forget to give a star ? and follow me!
+📫 **聯絡我:** [hectorliukiki@gmail.com](mailto:hectorliukiki@gmail.com)
 
+---
 
+### 📊 我的 GitHub 統計
+![EF101510's GitHub stats](https://github-readme-stats.vercel.app/api?username=EF101510&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=EF101510&layout=compact&theme=radical)
 
+---
+
+# 🚀 Welcome to EF101510's C++ Workspace
+
+### 🇹🇼 I'm a student from Taiwan, passionate about coding!
+
+This repository contains my C++ homework and practice codes, based on the book:
+**"C++ Primer Plus, 4th Edition (Chinese Version)"**
+
+If you like my work, please give it a ⭐ and follow me!
+
+</div>
