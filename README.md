@@ -12,7 +12,9 @@
 
 ### 📚 學習筆記
 這裡記錄了我學習 C++ 的點點滴滴，主要參考：
-**《C++ 全方位學習 第四版》**
+**《C++ 全方位學習 第四版》** 
+apcs 的歷屆考題
+以及一些 leetcode 的題目 
 
 📫 **聯絡我:** [hectorliukiki@gmail.com](mailto:hectorliukiki@gmail.com)
 
@@ -30,6 +32,7 @@
 
 This repository contains my C++ homework and practice codes, based on the book:
 **"C++ Primer Plus, 4th Edition (Chinese Version)"**
+Past exam questions for apcs and some LeetCode problems.
 
 If you like my work, please give it a ⭐ and follow me!
 
