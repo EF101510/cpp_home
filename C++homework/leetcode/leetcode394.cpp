@@ -7,11 +7,6 @@ using namespace std;
 
 string solution(string s)
 {
-//num：現在讀到倍?
-//cur：現在做好字串
-//numSt：以前倍數
-//strSt：以前字串
-//tmp：複製機
     stack<int> numSt;
     stack<string> strSt;
     string cur = "";
@@ -51,8 +46,6 @@ string solution(string s)
 
 int main()
 {
-    // 預期輸出: accaccacc
-    // 實際輸出會因為錯誤而大混亂
     cout << solution("2[abc]3[cd]ef") << endl;
     return 0;
 }
