@@ -8,10 +8,9 @@ public:
     {
         int left = 0;
         int right = nums.size() - 1;
-        int mid = 0;
         while (left <= right)
         {
-            mid = left + (right - left) / 2;
+            int mid = left + (right - left) / 2;
             if (nums[mid] == target)
             {
                 return mid;
